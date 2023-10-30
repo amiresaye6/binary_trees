@@ -76,20 +76,7 @@ A binary tree is considered balanced if the height of the left and right subtree
 
 ---
 
-## Binary Tree Example 🌱
-
-Here's an example of a binary tree:
-
-
-Certainly! Here's a README code for a larger binary tree example:
-
-markdown
-Copy code
-# Large Binary Tree Example 🌳
-
-This repository provides a large example of a binary tree.
-
-## Example Tree Structure 🌱
+# Example Tree Structure 🌱
 
                1
              /   \
