@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "debugging"
+git commit -m "adding features to b_t"
 git push
