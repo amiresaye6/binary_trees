@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "adding new features to tree"
+git commit -m "betty style"
 git push
