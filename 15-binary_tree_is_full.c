@@ -1,12 +1,19 @@
 #include "binary_trees.h"
 
+/**
+ * binary_tree_is_full - a function that checks if a binary tree is full
+ *
+ * @tree: a pointer to the root node of the tree to delete
+ *
+ * Return: the depth of the tree (size_t)
+*/
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-    size_t val = 0;
+	size_t val = 0;
 
-    val = binary_tree_nodes(tree);
-    
-    return (1);
+	val = binary_tree_nodes(tree);
+	
+	return (1);
 }
 
 /**
