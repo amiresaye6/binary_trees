@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "#14 finally done"
+git commit -m "#15 full tree"
 git push

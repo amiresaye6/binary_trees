@@ -6,28 +6,21 @@
  * @tree: a pointer to the root node of the tree to delete
  *
  * Return: the depth of the tree (size_t)
-*/
+ */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	size_t val = 0;
-
-	val = binary_tree_nodes(tree);
-	
-	return (1);
-}
-
-/**
- * binary_tree_nodes - a function that counts the nodes with at least 1 child
- * in a binary tree
- *
- * @tree: a pointer to the root node of the tree to delete
- *
- * Return: the depth of the tree (size_t)
-*/
-size_t binary_tree_nodes(const binary_tree_t *tree)
-{
-	if (tree == NULL || (tree->left == NULL && tree->right == NULL))
+	if (tree == NULL)
 		return (0);
 
-	return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right) + 1);
+	if (tree->left == NULL && tree->right == NULL)
+		return (1);
+
+	else if ((tree->left != NULL && tree->right != NULL))
+	{
+		return (
+			binary_tree_is_full(tree->left) && binary_tree_is_full(tree->right)
+			);
+	}
+
+	return (0);
 }
