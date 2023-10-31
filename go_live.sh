@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "fixing documentation"
+git commit -m "init for advansed"
 git push
