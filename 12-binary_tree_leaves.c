@@ -3,9 +3,9 @@
 /**
  * binary_tree_leaves - a function that counts the leaves in a binary tree
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to get is't leaves
  *
- * Return: the depth of the tree (size_t)
+ * Return: the number of leaves of the tree (size_t)
 */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {

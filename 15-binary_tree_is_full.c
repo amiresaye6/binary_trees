@@ -3,9 +3,9 @@
 /**
  * binary_tree_is_full - a function that checks if a binary tree is full
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to check
  *
- * Return: the depth of the tree (size_t)
+ * Return: 1 if full and 0 otherwise (int)
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {

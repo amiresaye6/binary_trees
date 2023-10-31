@@ -7,7 +7,7 @@
  * @parent: the node's parent node (binary_tree_t)
  * @value: the value to assign to the node (int)
  *
- * Return: a pointet to the new left node (biniary_tree_t) or NULL
+ * Return: a pointet to the new right node (biniary_tree_t) or NULL
 */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {

@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "end of mandatory tasks"
+git commit -m "fixing documentation"
 git push

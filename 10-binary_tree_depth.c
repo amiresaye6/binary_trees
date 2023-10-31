@@ -4,7 +4,7 @@
  * binary_tree_depth - a function that measures the depth of a node in
  * a binary tree
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to get its depth
  *
  * Return: the depth of the tree (size_t)
 */

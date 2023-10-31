@@ -3,9 +3,9 @@
 /**
  * binary_tree_is_perfect - a function that checks if a binary tree is perfect
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to check
  *
- * Return: the depth of the tree (size_t)
+ * Return: 1 if perfect and 0 otherwise (int)
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -27,9 +27,9 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 /**
  * binary_tree_nodes - a function that counts the TOTAL number of nodes
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to get it's nodes
  *
- * Return: the depth of the tree (size_t)
+ * Return: the nodes of the tree (size_t)
 */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
@@ -42,7 +42,7 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 /**
  * binary_tree_height - a function that measures the height of a binary tree
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to get it's height
  *
  * Return: the height of the tree (size_t)
 */

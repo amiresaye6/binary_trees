@@ -5,7 +5,7 @@
  *
  * @node: a pointer to the node to find the sibling
  *
- * Return: the depth of the tree (size_t)
+ * Return: pointer to the sibling node or NULL (binary_tree_t)
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {

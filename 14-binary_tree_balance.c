@@ -4,9 +4,9 @@
  * binary_tree_balance - a function that measures the balance factor of a
  * binary tree
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to check if balanced
  *
- * Return: the depth of the tree (size_t)
+ * Return: 1 if balanced and 0 otherwise (int)
 */
 int binary_tree_balance(const binary_tree_t *tree)
 {
@@ -20,7 +20,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 /**
  * binary_tree_height - a function that measures the height of a binary tree
  *
- * @tree: a pointer to the root node of the tree to delete
+ * @tree: a pointer to the root node of the tree to get it's height
  *
  * Return: the height of the tree (size_t)
 */
