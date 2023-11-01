@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "init for advansed"
+git commit -m "#100 ancestors"
 git push
