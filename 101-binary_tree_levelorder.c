@@ -1,5 +1,8 @@
 #include "binary_trees.h"
-void binary_tree_level(const binary_tree_t *tree, size_t height, void (*func)(int));
+void binary_tree_level(
+	const binary_tree_t *tree, size_t height, void (*func)(int)
+
+	);
 
 /**
  * binary_tree_levelorder - a function that goes through a binary tree using
@@ -35,6 +38,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 */
 void binary_tree_level(
 	const binary_tree_t *tree, size_t height, void (*func)(int)
+
 	)
 {
 	if (tree == NULL || func == NULL || height < 1)
