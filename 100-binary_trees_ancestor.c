@@ -20,13 +20,13 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 	if (first == NULL || second == NULL)
 		return (NULL);
 
-	if (first->parent == second)
+	if (first->parent != NULL && first->parent == second)
 		return ((binary_tree_t *)second);
 
-	if (second->parent == first)
+	if (first->parent != NULL && second->parent == first)
 		return ((binary_tree_t *)first);
 
-	if (first == second)
+	if (first == second && first->parent != NULL)
 		return ((binary_tree_t *)first->parent);
 
 	left_depth = binary_tree_depth(first);
