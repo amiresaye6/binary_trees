@@ -32,9 +32,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 			queue[++rear] = node->left;
 		}
 		else
-		{
 			hasNullChild = 1;
-		}
 
 		if (node->right)
 		{
@@ -46,9 +44,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 			queue[++rear] = node->right;
 		}
 		else
-		{
 			hasNullChild = 1;
-		}
 	}
 
 	free(queue);
