@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "#110 BST :)"
+git commit -m "#111 BST insert :)"
 git push
