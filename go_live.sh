@@ -3,5 +3,5 @@
 # easy way to go up
 
 git add .
-git commit -m "#103 rotate left / right :)"
+git commit -m "#110 BST :)"
 git push
